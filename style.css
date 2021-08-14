@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12px;
+}
+section{
+    padding: 2rem;
+}
+/* ----^^always use^^---
+======================= */
+#top_header{
+    background-color: #55415f;
+    padding: .3rem;
+    overflow: hidden;
+}
+.top_header{
+    float: right; 
+    height: 1rem;
+    padding-right: 2rem;
+   
+}
+.top_header ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center
+    
+}
+.top_header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    transition: .2rem;
+    text-transform: capitalize;
+    
+}
+.top_header ul li a:hover{
+    color: orange;
+    cursor: pointer;
+    
+}
+/* ----^^TOP HEADER ENDS HERE^^---
+======================= */
+#main_header{
+    padding:2rem;
+}
+#main_header .active{
+    
+    text-decoration: underline orange .2rem ;
+}
+.nav-item a:hover{
+    text-decoration: underline orange .2rem ;
+    
+}
+.nav-item a{
+    
+    font-size: 1rem;
+}
+/* ----^^TOP HEADER ENDS HERE^^---
+======================= */
+#slider{
+    background-color: #ddd;
+    padding: 2.5rem;
+}
+.banner_image img{
+    width: 100%;
+    height: 400px;
+    box-shadow:#55415f;
+    border-radius: 1rem;
+}
+/* ----^^banner ENDS HERE^^---
+======================= */
+.hero_area{
+    margin-top: 1rem;
+}
+.image,.images{
+    text-align: center;
+    margin-top: 2rem;
+}
+.images a{
+    text-decoration: none;
+    color:#9f81a9 ;
+    font-size: 1rem;
+    
+}
+
+.images img{
+    width: 10rem;
+}
+
+.image img{
+    width: 5rem;
+    height: 2.2rem;
+}
+.hero_area p{
+    color: #888;
+}
+.quote{
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+}
+/* ----^^HERO AREA ENDS HERE^^---
+======================= */
+.titel{
+    margin-bottom: 1.7rem;
+}
+.color_list li{
+    color: #9f81a9
+}
+.sub_list li{
+    list-style: none;
+    margin: 0;
+    line-height: 1.6rem;
+}
+.footer_border{
+    border-top: .2rem solid #710b71;
+    background-color: black;
+    color:#888;
+    padding-top: .4rem;
+}
+.copyright2 {
+    display: grid;
+    justify-content: right;
+}
+@media screen and (max-width: 720px){
+    .copyright2,.copyright1{
+        display: block;
+        text-align: center;
+    }
+    #sub_footer{
+        display: block;
+        text-align: center;
+    }
+
+}
